@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
-/* Первая секция */
+/* Первая секция фоновое изображение*/
 .section_1 {
     /* Устанавливаем фон элемента */
     background: url(img/image.png) center no-repeat;
@@ -90,3 +90,45 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 160px;
     padding-bottom: 160px;
 }
+
+/* Вторая секция заголовок и текст */
+.section_2 {
+    background-color: #EEEEEE;
+    padding-top: 55px;
+    padding-bottom: 95px;
+}
+
+/* текст второй секции */
+.text_section_2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.span {
+    /* сделали шрифт жирным */
+    font-weight: 700;
+}
+
+/* фоновое изображение и текст */
+.section_3 {
+    background: url(img/image-1.png) center no-repeat;
+    background-size: cover;
+    /* расширили картинку отступами */
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.message {
+    /* Устанавливаем ширину содержимого элемента */
+    width: 100%;
+    font-style: italic;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.section_4
