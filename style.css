@@ -131,4 +131,22 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 56px;
 }
 
-.section_4
+.section_4 {
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+
+.logo {
+    /* задаем обтекание логотипа слева */
+    float: left;
+    /* отступ справа от текста */
+    padding-right: 48px;
+}
+
+.logo_img {
+    /* Устанавливаем ширину и высоту картинки */
+    width: 115px;
+    height: 115px;
+}
+
