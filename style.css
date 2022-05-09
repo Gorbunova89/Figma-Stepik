@@ -150,3 +150,51 @@ h1, h2, h3, h4, h5, h6 {
     height: 115px;
 }
 
+.section_5 {
+    background-color: #EEEEEE;
+    /* смотрим значение на самой картинке */
+    padding-top: 58px;
+    padding-bottom: 112px;
+}   
+
+/* фото вместе с именем и должностью */
+.img {
+    /* нужно выделить элементы, чтобы увидеть параметры */
+    width: 350px;
+    height: 283px;
+    /* выравниваем текст под картинкой по центру */
+    text-align: center;
+    /* определяем расположение флекс элементов в контейнере */
+    display: flex;
+    /* не понятно для чего, ничего не поменялось */
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 54px;
+}
+
+.name {
+    color: #007765;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.team {
+    padding-top: 58px;
+}
+
+/* контейнер где располагаются флнекс элементы */
+.figure {
+    margin: 0;
+    padding: 0;
+    /* располагаем в одну линию */
+    display: flex;
+    /* переносим элементы на второй ряд */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.foto {
+    width: 168px;
+    height: 168px;
+}
