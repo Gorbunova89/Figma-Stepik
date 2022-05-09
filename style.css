@@ -91,6 +91,16 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 160px;
 }
 
+/* Текст заголовка */
+.main_title {
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+}
+
 /* Вторая секция заголовок и текст */
 .section_2 {
     background-color: #EEEEEE;
@@ -192,9 +202,29 @@ h1, h2, h3, h4, h5, h6 {
     /* переносим элементы на второй ряд */
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-top: 56px;
 }
 
 .foto {
     width: 168px;
     height: 168px;
+}
+
+.footer {
+    background-color: #333333;
+    height: 176px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.text {
+    color: #FFFFFF;
+    width: 540px;
+    height: 64px;
+    /* расстояние от края элемента до края другого элемента */
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
